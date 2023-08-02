@@ -25,7 +25,7 @@ let getMovie = () => {
                         <div>
                             <h2>${data.Title}</h2>
                             <div class="rating">
-                                <img src="../icon/5-point-stars-png-star-icon-flat-11562958768wpf63hu4tq-removebg-preview.png">
+                                <img src="https://github.com/vmfas/projetos_Web/blob/main/Guia-de-Filmes/src/icon/5-point-stars-png-star-icon-flat-11562958768wpf63hu4tq-removebg-preview.png?raw=true">
                                 <h4>${data.imdbRating}</h4>
                             </div>
                             <div class="details">
