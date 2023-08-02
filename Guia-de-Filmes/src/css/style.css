@@ -44,7 +44,7 @@ body {
 
 .search-container input {
     background-color: transparent;
-    border: 1px solid #a0a0a0;
+    border: 1px solid #ffffff;
     color: #fff;
     padding: 0.7em;
 }
@@ -104,7 +104,7 @@ h2 {
     font-size: 0.95em;
     gap: 1em;
     justify-content: center;
-    color: #a0a0a0;
+    color: #ffffff;
     margin: 0.6em 0;
     font-weight: 300;
 }
@@ -115,7 +115,7 @@ h2 {
 }
 
 .genre div {
-    border: 1px solid #a0a0a0;
+    border: 1px solid #ffffff;
     font-size: 0.75em;
     padding: 0.4em 1.6em;
     border-radius: 0.4em;
@@ -132,7 +132,7 @@ p {
     font-weight: 300;
     line-height: 1.8em;
     text-align: justify;
-    color: #a0a0a0;
+    color: #ffffff;
 }
 
 .msg {
