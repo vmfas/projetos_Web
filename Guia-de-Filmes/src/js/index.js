@@ -1,6 +1,7 @@
 let movieNameRef = document.getElementById("movie-name");
 let searchBtn = document.getElementById("search-btn");
 let result = document.getElementById("result");
+let key = "8901828f";
 
 //function to fetch data from api
 
@@ -24,7 +25,7 @@ let getMovie = () => {
                         <div>
                             <h2>${data.Title}</h2>
                             <div class="rating">
-                                <img src="../icon/star-svgrepo-com.svg">
+                                <img src="../icon/5-point-stars-png-star-icon-flat-11562958768wpf63hu4tq-removebg-preview.png">
                                 <h4>${data.imdbRating}</h4>
                             </div>
                             <div class="details">
