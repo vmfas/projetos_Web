@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Steven Universo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./src/img/Site-logo.webp" alt="Logo Steven Universe">
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="steven" data-name="Steven"
+          data-description="Steven Quartzo Universo é o personagem principal da série. Steven é o filho de Rose Quartz (Diamante Rosa), a ex-líder das Crystal Gems, e passa a viver com elas. Ao mesmo tempo que convive com sua vida humana em Beach City, também convive com o mundo Gem, indo atrás de artefatos Gems, derrotando Gems Corrompidas e descobrindo sobre o passado das Gems do Planeta Natal, que tentaram colonizar a Terra.">
+          <img src="./src/img/pequenos/steven.png" alt="Personagem Steven" />
+        </li>
+        <li class="personagem" id="perola" data-name="Perola"
+          data-description="Pérola é uma jóia do tipo pérola de cristal das gemas , em Steven Universo e uma das protagonistas da série. Foi uma primeira jóia de Rose Quartz na Rebelião , tendo um grande amor por ela. Atualmente, é uma das mentoras do seu filho, Steven.">
+          <img src="./src/img/pequenos/perola.jpg" alt="Personagem Perola" />
+        </li>
+
+        <li class="personagem" id="ametista" data-name="Ametista"
+          data-description="Ametista (mas especificamente Ametista Faceta-5 Corte-8XM), é um dos membros das Crystal Gems e uma das protagonistas da série. Ela foi a última Gem conhecida a ser fabricada na Terra como parte do projeto do Jardim de Infância. Após a Rebelião, Ametista se tornou uma Crystal Gem e passou a ajudar seus companheiros a proteger a Terra.">
+          <img src="./src/img/pequenos/ametista.jpg" alt="Personagem Ametista" />
+        </li>
+
+        <li class="personagem" id="garnet" data-name="Garnet"
+          data-description="Garnet é uma das protagonistas de Steven Universo. Ela é a fusão de Rubi e Safira e a líder das Crystal Gems. Se juntou às Crystal Gems porque elas aceitavam o fato dela ser uma fusão. Lutou na rebelião e se tornou uma das defensoras da Terra. Após a morte de Rose Quartz, Garnet começou a liderar as Crystal Gems.">
+          <img src="./src/img/pequenos/garnet.png" alt="Personagem Garnet" />
+        </li>
+
+        <li class="personagem" id="connie" data-name="Connie"
+          data-description="Connie Maheswaran E uma garota descendente de Indianos. [2] Ela é a primeira Crystal Gem 100% humana.">
+          <img src="./src/img/pequenos/connie.jpg" alt="Personagem Connie" />
+        </li>
+
+        <li class="personagem" id="rose" data-name="Rose Quartz"
+          data-description="Rose Quartz é uma ex-Crystal Gem tendo muita importância na história de Steven Universo Ela dizia ser um quartzo-rosa feito no Jardim de Infância, que não suportou o que as Gems do Planeta Natal estavam fazendo e se voltou contra o Planeta Natal, dando início a Rebelião.mas na verdade era a Diamante Rosa que se disfaçou como rose quartz para combater e proteger a terra do planeta natal.">
+          <img src="./src/img/pequenos/rose.jpg" alt="Personagem Rose Quartz" />
+        </li>
+
+        <li class="personagem" id="greg" data-name="Greg"
+          data-description="Greg Universo, originalmente Greg DeMayo, é um morador de Beach City. Ele era um cantor que fazia turnês por várias cidades, até que um dia, foi fazer um show em Beach City e lá ele conheceu Rose Quartz, se apaixonando pela gem e abandonando sua carreira por ela. Atualmente, cuida de seu filho com Rose, Steven, além de trabalhar no Lava-Carros.">
+          <img src="./src/img/pequenos/greg.png" alt="Personagem Greg" />
+        </li>
+
+        <li class="personagem" id="lars" data-name="Lars"
+          data-description="Laramie Barriga, ou simplesmente Lars, é um adolescente que morava em Beach City com seus pais, Martha e Dante, e trabalhava no Big Rosquinha, juntamente com Sadie. Após ser abduzido e levado ao Planeta Natal por engano, ele foi morto lá, mas graças aos poderes curativos de Steven ele foi trazido de volta a vida.">
+          <img src="./src/img/pequenos/lars.png" alt="Personagem Lars" />
+        </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./src/img/grandes/" alt="Personagem Selecionado" />
+
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+        <p class="descricao-personagem" id="descricao-personagem">
+          Ele tem o poder de disparar rajadas ópticas por um acidente que
+          aconteceu com ele quando criança, mas não consegue controlá-los
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
