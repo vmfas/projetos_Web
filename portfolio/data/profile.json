@@ -36,17 +36,47 @@
   "portfolio": [
     {
       "name": "Projeto Pokedex 1",
-      "url": "https://vmfas.github.io/projetosWeb/pokedex_1/index.html",
+      "url": "https://vmfas.github.io/projetos_Web/pokedex_1/",
       "github": true
     },
     {
       "name": "Projeto Pokedex 2",
-      "url": "https://vmfas.github.io/projetosWeb/pokedex_2/html/index.html",
+      "url": "vmfas.github.io/projetos_Web/pokedex_2",
       "github": true
     },
     {
       "name": "Projeto Portifolio",
-      "url": "https://vmfas.github.io/projetosWeb/portfolio/index.html",
+      "url": "https://vmfas.github.io/projetos_Web/portfolio/",
+      "github": true
+    },
+    {
+      "name": "Projeto NavBar Responsivo",
+      "url": "https://vmfas.github.io/projetos_Web/NavBar-Responsivo/html/",
+      "github": true
+    },
+    {
+      "name": "Projeto Steven Universo",
+      "url": "https://vmfas.github.io/projetos_Web/Steven-Universe/",
+      "github": true
+    },
+    {
+      "name": "Projeto Steven Universo",
+      "url": "https://vmfas.github.io/projetos_Web/Steven-Universe/",
+      "github": true
+    },
+    {
+      "name": "Projeto LandingPage DIO",
+      "url": "https://vmfas.github.io/projetos_Web/landingPageCssDev/",
+      "github": true
+    },
+    {
+      "name": "Projeto Relojio Dinâmico",
+      "url": "https://vmfas.github.io/projetos_Web/relogio-dinamico/",
+      "github": true
+    },
+    {
+      "name": "Projeto Lista de afazeres",
+      "url": "https://vmfas.github.io/projetos_Web/todo-list/",
       "github": true
     }
   ],
@@ -58,3 +88,4 @@
     }
   ]
 }
+
